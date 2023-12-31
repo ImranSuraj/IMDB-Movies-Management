@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    font-family: Verdana, sans-serif;
+    font-size:  1.1em;
+    
+}
+  .navbar .navbar-nav .nav-link {
+    color: white; /* Set text color to white for the navbar links */
+  }
+  
+  

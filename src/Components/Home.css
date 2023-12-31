@@ -1,0 +1,16 @@
+@media only screen and (min-width: 992px) {
+    #home-top {
+      margin-top: 100px !important;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    #home-top {
+      margin-top: 270px !important;
+      
+    }
+    #search-input{
+        margin-bottom: 10px;
+    }
+  }
+  
