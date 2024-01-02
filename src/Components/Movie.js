@@ -8,7 +8,7 @@ export default function Movie() {
   const [comment, setcomment] = useState("");
   const [rating, setrating] = useState(0);
   const getdata = async () => {
-    const url = `http://www.omdbapi.com/?i=${x}&apikey=263d22d8`;
+    const url = `https://www.omdbapi.com/?i=${x}&apikey=263d22d8`;
 
     const response = await fetch(url);
     const result = await response.json();
